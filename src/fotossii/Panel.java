@@ -165,7 +165,7 @@ public class Panel extends javax.swing.JPanel {
                     ||tf.getText().equals("isabel")||tf.getText().equals("luis")||tf.getText().equals("olvera")||
                     tf.getText().equals("socorro")||tf.getText().equals("manuel"))
                   url=new URL("http://www.syc.itmexicali.edu.mx/fotos/"+tf.getText()+"2.jpg");
-            else  url=new URL("http://sii.itmexicali.edu.mx/img/fotos/alumnos/"+tf.getText()+".jpg");
+            else  url=new URL("http://sii.itmexicali.edu.mx/sistema/img/fotos/alumnos/"+tf.getText()+".jpg");
          url.getContent();
         jLabel2.setIcon(new ImageIcon(url)); 
         
