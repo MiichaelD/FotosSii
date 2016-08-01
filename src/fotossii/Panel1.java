@@ -142,7 +142,7 @@ public class Panel1 extends javax.swing.JPanel {
                 try{
                 if(tf.getText().length()==7)
                     tf.setText("0"+tf.getText());
-                url=new URL("http://sii.itmexicali.edu.mx/img/fotos/alumnos/"+tf.getText()+".jpg");
+                url=new URL("http://sii.itmexicali.edu.mx/sistema/img/fotos/alumnos/"+tf.getText()+".jpg");
                 try{
                 url.getContent();
                  jLabel2.setIcon(new ImageIcon(url)); 
